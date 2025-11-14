@@ -32,7 +32,7 @@ public class EmpleadoServicioImpl implements EmpleadoServicio {
     @Override
     public Empleado guardarEmpleado(Empleado empleado) {
         // Por si envían un ID manual, lo ignoramos para que se auto-genere
-        empleado.setIdEmpleado(null);
+        //empleado.setIdEmpleado(null);
         return repositorio.save(empleado);
     }
 

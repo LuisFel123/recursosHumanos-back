@@ -25,6 +25,7 @@ public class EmpleadoControlador {
         return servicio.listarEmpleados();
     }
 
+    /*
     // Obtener un empleado por ID
     @GetMapping("/{id}")
     public ResponseEntity<Empleado> obtenerEmpleadoPorId(@PathVariable Long id) {
@@ -35,6 +36,8 @@ public class EmpleadoControlador {
             return ResponseEntity.notFound().build();
         }
     }
+
+     */
 
 
     //obtener el empleado por id 2
